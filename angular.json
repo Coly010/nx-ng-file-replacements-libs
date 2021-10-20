@@ -131,40 +131,16 @@
           },
           "configurations": {
             "production": {
-              "tsConfig": "libs/lib1/tsconfig.lib.prod.json",
-              "fileReplacements": [
-                {
-                  "replace": "libs/lib1/src/lib/envs/env.ts",
-                  "with": "libs/lib1/src/lib/envs/prod.evn.ts"
-                }
-              ]
+              "tsConfig": "libs/lib1/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "libs/lib1/tsconfig.lib.json",
-              "fileReplacements": [
-                {
-                  "replace": "libs/lib1/src/lib/envs/env.ts",
-                  "with": "libs/lib1/src/lib/envs/dev.evn.ts"
-                }
-              ]
+              "tsConfig": "libs/lib1/tsconfig.lib.json"
             },
             "staging": {
-              "tsConfig": "libs/lib1/tsconfig.lib.json",
-              "fileReplacements": [
-                {
-                  "replace": "libs/lib1/src/lib/envs/env.ts",
-                  "with": "libs/lib1/src/lib/envs/stage.evn.ts"
-                }
-              ]
+              "tsConfig": "libs/lib1/tsconfig.lib.json"
             },
             "qa": {
-              "tsConfig": "libs/lib1/tsconfig.lib.json",
-              "fileReplacements": [
-                {
-                  "replace": "libs/lib1/src/lib/envs/env.ts",
-                  "with": "libs/lib1/src/lib/envs/qa.evn.ts"
-                }
-              ]
+              "tsConfig": "libs/lib1/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -202,40 +178,16 @@
           },
           "configurations": {
             "production": {
-              "tsConfig": "libs/lib2/tsconfig.lib.prod.json",
-              "fileReplacements": [
-                {
-                  "replace": "libs/lib2/src/lib/envs/env.ts",
-                  "with": "libs/lib2/src/lib/envs/prod.evn.ts"
-                }
-              ]
+              "tsConfig": "libs/lib2/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "libs/lib2/tsconfig.lib.json",
-              "fileReplacements": [
-                {
-                  "replace": "libs/lib2/src/lib/envs/env.ts",
-                  "with": "libs/lib2/src/lib/envs/dev.evn.ts"
-                }
-              ]
+              "tsConfig": "libs/lib2/tsconfig.lib.json"
             },
             "staging": {
-              "tsConfig": "libs/lib2/tsconfig.lib.json",
-              "fileReplacements": [
-                {
-                  "replace": "libs/lib2/src/lib/envs/env.ts",
-                  "with": "libs/lib2/src/lib/envs/stage.evn.ts"
-                }
-              ]
+              "tsConfig": "libs/lib2/tsconfig.lib.json"
             },
             "qa": {
-              "tsConfig": "libs/lib2/tsconfig.lib.json",
-              "fileReplacements": [
-                {
-                  "replace": "libs/lib2/src/lib/envs/env.ts",
-                  "with": "libs/lib2/src/lib/envs/qa.evn.ts"
-                }
-              ]
+              "tsConfig": "libs/lib2/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
